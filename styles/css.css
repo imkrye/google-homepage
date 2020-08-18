@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.searchbox {
+    text-align: left;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: rgb(230, 230, 230);
+    padding: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.searchbox img {
+    filter: opacity(30%);
+}
+
+button {
+    height: 35px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    font-size: 14px;
+    margin: 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    color: gray;
+    height: 5%;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    font-size: 13px;
+    color: black;
+    padding: 10px;
+}
+
+.alignleft {
+    float: left;
+    display: block;
+    padding: 10px;
+}
+.alignright {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    float: right;
+}
+
+#squares {
+    height:15px;
+    width:15px;
+    filter: opacity(60%);
+}
+
+#signinbutton {
+    border: 2px solid; 
+    border-color: rgb(50, 138, 227);
+    background-color: rgb(50, 138, 227);
+    color: white;
+}
